@@ -1,0 +1,181 @@
+body{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.header{
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  font-weight: 700;
+  padding-top: 30px;
+}
+.wrap{
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.nav{
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 14px;
+  align-items: center;
+}
+.nav>li{
+  margin-left: 15px;
+  color: #202020;
+}
+
+.nav>li>a{
+  text-decoration: none;
+  color: #202020;
+}
+.nav>li>a:hover{
+  border-bottom: 2px solid #000;
+}
+.nav_btn{
+  background-color: #5528ff;
+  border-radius: 5px;
+  padding: 10px 15px;
+  color: #fff;
+  border: none;
+  font-weight: 700;
+
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo_img{
+  display: block;
+  width: 58px;
+  height: 58px;
+  margin-right: 20px;
+  background-image: url(images/logo.jpg)
+}
+.logo_text{
+  color: #202020;
+  font-size: 24px;
+}
+title-main{
+  font-size: 57px;
+  color: #202020;
+  font-weight: 700;
+}
+.text-main{
+  font-size: 32px;
+  line-height: 1.5;
+  color: #4f4f4f;
+}
+.page{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  position: relative;
+
+}
+.page-top{
+  border-top: 1px solid #c2c2c2;
+}
+.page h2{
+  position: absolute;
+  top: -24px;
+  font-size: 14px;
+  font-weight: 300;
+  background-color: #fff;
+  padding: 5px 15px;
+  color: #c2c2c2;
+}
+.music{
+  display: grid;
+  grid-template: 50% 50% / 50% 50%;
+}
+.music-item{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.music_img{
+  width: 58px;
+}
+.music h3{
+  font-size: 28px;
+  font-weight: 400;
+}
+.music p{
+  font-size: 14px;
+  color: #b2b2b2;
+  line-height: 1.5;
+}
+
+
+.page-bot{
+  border-top: 1px solid #c2c2c2;
+}
+.paga{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  position: relative;
+  
+}
+.wrapa{
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.paga h3{
+  position:absolute;
+  top: -28px;
+  font-size: 14px;
+  font-weight: 300;
+  background-color: #fff;
+  padding: 5px 15px;
+  padding: 5px 15px;
+  color: #c2c2c2;
+
+}
+
+.produce-item{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.produce{
+  display: grid;
+  grid-template: 50% 50% / 50% 50%;
+}
+.produce_img{
+  padding-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
